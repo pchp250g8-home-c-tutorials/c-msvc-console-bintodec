@@ -36,7 +36,7 @@ int main(int argc, char* argv[])
         nBinNum += (nBinDigit * nBinPower);
         nBinPower *= 2;
     }
-    printf("The decimal equavalent of the binary number %s is %d\r\n", szLine1, nBinNum);
+    printf("The decimal equivalent of the binary number %s is %d\r\n", szLine1, nBinNum);
     getchar();
     getc(stdin);
     return 0;
